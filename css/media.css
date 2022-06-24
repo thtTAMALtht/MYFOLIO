@@ -1,0 +1,343 @@
+@media(min-width:320px) and (max-width:767px) {
+
+    nav ul li a {
+        text-align: center;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        padding: 0px 4px;
+        border-color: #CFC91D;
+    }
+
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+
+    .banner h3 {
+        padding-top: 110px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .banner h4 {
+        font-size: 24px;
+        letter-spacing: 5px;
+    }
+
+    .banner p {
+        font-size: 10px;
+        padding-bottom: 45px;
+    }
+
+    .banner h5 {
+        padding-top: 67px;
+        padding-bottom: 100px;
+    }
+
+    .banner h5 a {
+        padding: 12px 23px;
+        background: #cfc91d;
+        font-size: 10px;
+    }
+
+    .about {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about .about_details h4 {
+        font-size: 36px;
+    }
+
+    .about .about_details p {
+        font-size: 16px;
+    }
+
+    .about .about_details span {
+        font-size: 18px;
+    }
+
+    .about .about_title {
+        padding-top: 77px;
+    }
+
+    .about .about_title h5 {
+        padding-bottom: 20px;
+    }
+
+    .about .about_title img {
+        padding-top: 35px;
+        display: inline-block;
+    }
+
+    .about .about_title p {
+        font-size: 11px;
+    }
+
+    .about .about_title .border_right {
+        border-right: 0px;
+    }
+
+    .service .service_content {
+        text-align: center;
+    }
+
+    .service .service_content h3 {
+        font-size: 36px;
+        color: #02918c;
+    }
+
+    .service .service_content p {
+        font-size: 12px;
+    }
+
+    .service .service_title {
+        text-align: center;
+    }
+
+    .work {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .work h4 {
+        font-size: 36px;
+    }
+
+    .work p {
+        font-size: 12px;
+
+    }
+
+    .gallary_bs .flt .overly h6 {
+        color: #fff;
+        font-size: 16px;
+        font-family: OpenSans-ExtraBold;
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+
+    .gallary_bs .flt .overly p {
+        color: #fff;
+        font-size: 13px;
+        font-family: OpenSans-Light;
+    }
+
+    .gallary_item .overly h6 {
+        color: #fff;
+        font-size: 8px;
+        font-family: OpenSans-ExtraBold;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+
+    .gallary_item .overly p {
+        color: #fff;
+        font-size: 5px;
+        font-family: OpenSans-Light;
+    }
+
+
+    .contact {
+        padding-top: 80px;
+        padding-bottom: 65px;
+    }
+
+    .contact h5 {
+        font-size: 36px;
+    }
+
+    .contact p {
+        font-size: 12px;
+
+    }
+
+    .contact_form {
+        padding-top: 50px;
+        padding-bottom: 92px;
+    }
+
+    .contact_form ul li {
+        color: #7e8287;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .border_one {
+        border-bottom: 1px solid #898989;
+        width: 195px;
+        margin-left: 28px;
+        line-height: 45px;
+    }
+
+    .border_two {
+        border-bottom: 1px solid #898989;
+        width: 195px;
+        margin-left: 28px;
+        line-height: 45px;
+        margin-top: 52px;
+    }
+
+    .border_three {
+        border-bottom: 1px solid #898989;
+        width: 195px;
+        margin-left: 28px;
+        line-height: 45px;
+        margin-top: 52px;
+    }
+
+    .border_four {
+        border-bottom: 1px solid #898989;
+        width: 195px;
+        margin-left: 28px;
+        line-height: 45px;
+        margin-top: 52px;
+    }
+
+    .contact_form h6 {
+        margin-top: 78px;
+    }
+
+    .contact_form h6 a {
+        padding: 12px 23px;
+        background: #cfc91d;
+        text-decoration: none;
+        color: #0b1016;
+        font-size: 14px;
+        font-family: OpenSans-ExtraBold;
+    }
+}
+
+
+
+@media(min-width:768px) and (max-width:991px) {
+
+    nav ul li a {
+        text-align: center;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: red;
+        border-color: #CFC91D !important;
+    }
+
+    .navbar-toggler {
+        padding: 2px 3px;
+    }
+
+    .row>* {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x) * .5);
+        padding-left: calc(var(--bs-gutter-x) * .5);
+        margin-top: var(--bs-gutter-y);
+    }
+
+
+    .gallary_bs .flt .overly h6 {
+        color: #fff;
+        font-size: 14px;
+        font-family: OpenSans-ExtraBold;
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+
+    .gallary_bs .flt .overly p {
+        color: #fff;
+        font-size: 10px;
+        font-family: OpenSans-Light;
+    }
+
+    .gallary_item .overly h6 {
+        color: #fff;
+        font-size: 14px;
+        font-family: OpenSans-ExtraBold;
+        margin-top: 35px;
+        margin-bottom: 15px;
+    }
+
+    .gallary_item .overly p {
+        color: #fff;
+        font-size: 10px;
+        font-family: OpenSans-Light;
+    }
+
+
+    .border_one {
+        border-bottom: 1px solid #898989;
+        width: 435px;
+        margin-left: 120px;
+    }
+
+    .border_two {
+        border-bottom: 1px solid #898989;
+        width: 435px;
+        margin-left: 120px;
+    }
+
+    .border_three {
+        border-bottom: 1px solid #898989;
+        width: 620px;
+        margin-left: 27px;
+    }
+
+    .border_four {
+        border-bottom: 1px solid #898989;
+        width: 620px;
+        margin-left: 27px;
+    }
+
+    .contact_form h6 {
+        margin-top: 78px;
+    }
+
+    .contact_form h6 a {
+        padding: 13px 23px;
+        margin-left: -5px;
+    }
+
+}
+
+@media(min-width:992px) and (max-width:1999px) {
+    .service .service_content h3 {
+        font-size: 34px;
+        padding-bottom: 22px;
+        margin-left: 10px;
+    }
+
+    .service .service_content p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .service .service_title h5 {
+        margin-left: 20px;
+    }
+
+    .service .service_title img {
+        margin-left: 20px;
+    }
+
+    .service .service_title p {
+        margin-left: 20px;
+    }
+
+    /* footer */
+  
+
+  
+}
